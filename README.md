@@ -1,8 +1,9 @@
-# Natural Language Processing Part 3
+# Toxic Comment Classification Flask App
 
-organised by [Vancouver School of AI](https://www.meetup.com/Vancouver-School-of-AI/)
+This project was originally developed for the  **NLP Project 3 workshop@Vancouver School of AI** - [Github](https://github.com/SchoolofAI-Vancouver/NLP_Project_3) & [Meetup page](https://www.meetup.com/Vancouver-School-of-AI/events/256839305/) - to demonstrate how to deploy a toxic comment text classification model using Heroku and Flask. However, to keep things simple, we built this in a hackthon way and did not put much effort in enforcing good practices.
 
-**Date: 4 December 2018**
+For fun and still for fun, I am going to take it a step further by adding test-driven development (TDD), DevOps (CI/CD), container (Docker), and deployment (I am sure this was in the original workshop, but I just mention it to make it sounds fancy :). 
+
 
 ## Project Overview
 
@@ -52,9 +53,6 @@ python src/predict.py
 ### Deployment
 TODO 
 
-## Meetup Content
-
-[Part 3 Slides](https://docs.google.com/presentation/d/1QGz70Qo8ERZBRoFpAb4npl7hvfJM5hhZ2CfIOxjZbBs/edit?usp=sharing)
 
 
 ## Resources
@@ -65,21 +63,7 @@ If you are struggling with implementing some of the concepts discussed at the me
 
 Alternatively, ask for assistance on Slack. That's what this community is all about :)
 
-## Code Challenge
 
-**Due Date:** Sunday, 2 December 2018 (PT)
-
-**Challenge:** Build a classification model on the Toxic Comment Classification Challenge [data](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data). You are free to think outside the box here. It does not have to be a binary classifier. Use the techniques discussed in the meetup as a starting point.
-
-**Everyone is encouraged to participate!** The goal of creating models is to have something to deploy as part of a web app (which will be discussed at the next meetup).
-
-The winning solution should ideally contain:
-
-* a well-documented EDA
-
-* machine learning techniques that are sensible
-
-To submit, post your submission's repository link on the `# code_challenge` Slack channel (on the Vancouver School of AI workspace) before the due date.
 
 ## Meetup Contributors
 
