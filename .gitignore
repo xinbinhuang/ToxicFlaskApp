@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-*.pyc
-__pycache__
-mlwebapp/
-=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -107,4 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
->>>>>>> origin/master
+
+# data & embedding file
+train.csv
+*.vec
